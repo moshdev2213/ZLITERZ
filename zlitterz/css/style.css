@@ -918,10 +918,10 @@ ol {
   font-weight: 300;
   line-height: 32px;
 }
-.footer__option__item .form {
+.footer__option__item form {
   position: relative;
 }
-.footer__option__item .form input {
+.footer__option__item form input {
   height: 50px;
   width: 100%;
   padding-left: 20px;
@@ -930,22 +930,22 @@ ol {
   font-size: 16px;
   color: #adadad;
 }
-.footer__option__item .form input::-webkit-input-placeholder {
+.footer__option__item form input::-webkit-input-placeholder {
   color: #adadad;
 }
-.footer__option__item .form input::-moz-placeholder {
+.footer__option__item form input::-moz-placeholder {
   color: #adadad;
 }
-.footer__option__item .form input:-ms-input-placeholder {
+.footer__option__item form input:-ms-input-placeholder {
   color: #adadad;
 }
-.footer__option__item .form input::-ms-input-placeholder {
+.footer__option__item form input::-ms-input-placeholder {
   color: #adadad;
 }
-.footer__option__item .form input::placeholder {
+.footer__option__item form input::placeholder {
   color: #adadad;
 }
-.footer__option__item .form button {
+.footer__option__item form button {
   font-size: 20px;
   color: #ffffff;
   border: none;
