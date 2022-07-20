@@ -198,10 +198,33 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="footer__option__item">
                             <h5>Newsletter</h5>
-                            <p>Be with us the Team Zlitterz the one and only place for your high quality staffs for a affordable prize in hand.</p>
-                            <form action="#">
-                                <input type="text" placeholder="Email">
-                                <button type="submit"><i class="fa fa-send"></i></button>
+                            <p>Be with us the Team Zlitterz the one and only place for your high quality staffs for a
+                                affordable prize in hand.</p>
+                            <form action="" method="get">
+                                <input name="email" type="email" placeholder="Email" required>
+                                <button id="btn"><i class="fa fa-send"></i></button>
+                                <p id="message"></p>
+                                <!-- script for email validation -->
+                                <script>
+                                    const email = document.querySelector('input[name=email]');
+                                    const button = document.querySelector('#btn');
+                                    const text = document.querySelector('#message');
+
+                                    const validateEmail = (email) => {
+                                        var regex = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+                                        return regex.test(String(email).toLowerCase());
+                                    }
+
+                                    button.addEventListener('click', () => {
+                                        if (validateEmail(email.value)) {
+                                            text.innerText = "Valid email";
+                                        } 
+                                        // else {
+                                        //     text.innerText = "Invalid email";
+                                        // }
+                                    })
+                                </script>
+                                <!-- email validation ends here -->
                             </form>
                         </div>
                     </div>
