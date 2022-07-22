@@ -594,7 +594,7 @@ ol {
 .counter {
   background: #131313;
   height: 840px;
-  padding-top: 380px;
+  /* padding-top: 380px; */
   overflow: hidden;
 }
 
@@ -604,9 +604,9 @@ ol {
 
 .counter__item {
   background: #242424;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  /* -webkit-transform: rotate(45deg); */
+  /* -ms-transform: rotate(45deg); */
+  /* transform: rotate(45deg); */
   height: 255px;
   width: 255px;
   display: -webkit-box;
@@ -620,6 +620,7 @@ ol {
   justify-content: center;
   text-align: center;
   position: relative;
+  /* border-radius: 150px; */
   z-index: 1;
 }
 .counter__item::before {
@@ -628,30 +629,30 @@ ol {
   bottom: -2px;
   height: 636px;
   width: 636px;
-  border-left: 1px solid #333333;
-  border-top: 1px solid #333333;
+  /* border-left: 1px solid #333333; */
+  /* border-top: 1px solid #333333; */
   content: "";
   z-index: -1;
 }
 .counter__item.second__item {
-  margin-top: -185px;
+  /* margin-top: -185px; */
 }
 .counter__item.second__item:before {
   left: -316px;
   bottom: -65px;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
+  /* border-right: 1px solid #333333; */
+  /* border-bottom: 1px solid #333333; */
   border-left: none;
   border-top: none;
 }
 .counter__item.four__item {
-  margin-top: -185px;
+  /* margin-top: -185px; */
 }
 .counter__item.four__item:before {
   left: -380px;
   bottom: -380px;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
+  /* border-right: 1px solid #333333; */
+  /* border-bottom: 1px solid #333333; */
   border-left: none;
   border-top: none;
 }
@@ -661,9 +662,9 @@ ol {
 }
 
 .counter__item__text {
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+  /* -webkit-transform: rotate(-45deg); */
+  /* -ms-transform: rotate(-45deg); */
+  /* transform: rotate(-45deg); */
 }
 .counter__item__text h2 {
   font-size: 60px;
@@ -775,9 +776,9 @@ ol {
   background-color: #242424;
 }
 .blog__item.latest__item:hover {
-  border: 1px solid #242424 !important;
-  background: url(../img/blog/blog-1.jpg);
-  background-size: cover;
+  /* border: 1px solid #242424 !important; */
+  /* background: url(../img/blog/blog-1.jpg); */
+  /* background-size: cover; */
 }
 
 .latest__slider.owl-carousel .owl-item .col-lg-4 {
@@ -1371,9 +1372,9 @@ ol {
   margin-bottom: 45px;
 }
 .blog__item:hover {
-  border: 1px solid transparent !important;
-  background: url(../img/blog/blog-2.jpg) no-repeat;
-  background-size: cover;
+  /* border: 1px solid transparent !important; */
+  /* background: url(../img/blog/blog-2.jpg) no-repeat; */
+  /* background-size: cover; */
 }
 .blog__item:hover ul li {
   color: #ffffff;
