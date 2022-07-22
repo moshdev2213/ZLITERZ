@@ -9,7 +9,7 @@
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
-        $("#preloder").delay(2000).fadeOut("slow");
+        $("#preloder").delay(1000).fadeOut("slow");
 
         /*------------------
             Portfolio filter

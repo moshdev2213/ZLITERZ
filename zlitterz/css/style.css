@@ -204,7 +204,8 @@ ol {
 .giffy{
   position: absolute;
   top: 20%;
-  left: 35%;
+  width: 400px;
+  /* left: 35%; */
 }
 #preloder {
   position: fixed;
