@@ -201,6 +201,11 @@ ol {
 }
 
 /* Preloder */
+.giffy{
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
 #preloder {
   position: fixed;
   width: 100%;
