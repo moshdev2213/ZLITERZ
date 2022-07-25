@@ -594,7 +594,7 @@ ol {
 .counter {
   background: #131313;
   height: 840px;
-  /* padding-top: 380px; */
+  padding-top: 120px;
   overflow: hidden;
 }
 
